@@ -1,50 +1,63 @@
-.isi {
+.main-pg {
   width: 100%;
   height: 1400px;
   padding: 0;
   margin: 0;
-  background-color: #7AA8B7;
+  background-image:url(https://www.djkn.kemenkeu.go.id/files/images/2022/06/i6gnlf4k2o.jpg);
+  background-size:cover;
   font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-  background-color: #345D82;
+li a:hover:not(.current) {
+  background-color: #2B9F98;
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
+.setnav {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.current {
+  background-color: #2B9F98;
+}
+
+.header {
+  margin-top: 200px;
+  margin-left: 200px;
+  font-weight: bold;
+}
+
+.quote {
+  margin-top: 10px;
+  margin-left: 200px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.by {
+  margin-top: 5px;
+  margin-left: 835px;
+}
+
+.logo {
+  color: white;
+  font-size: 80px;
+  margin-top: 850px;
+  margin-left: 200px;
+}
+
+.address {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.pg {
+  width: 100%;
+  height: 1400px;
   padding: 0;
-  overflow: hidden;
-}
-
-.navbar li {
-  float: left;
-}
-
-.navbar li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: x-large;
-}
-
-.navbar li a:hover:not(.active) {
-  background-color: #2B9F98;
-}
-
-.active {
-  display: block;
-  padding: 14px 16px;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  background-color: #2B9F98;
-  font-weight: bold;
-  font-size: x-large;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #7AA8B7;
 }
 
 .content {
