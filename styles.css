@@ -77,6 +77,17 @@ li a:hover:not(.current) {
   margin-left: 120px;
 }
 
+.status {
+  padding: 10px;
+  background-color: #0C547C;
+  width: 160px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news {
+  padding: 50%;
+}
 
 .baris {
   margin-top: 78px;
