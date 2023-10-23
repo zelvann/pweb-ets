@@ -76,3 +76,19 @@ li a:hover:not(.current) {
   margin-top: 20px;
   margin-left: 120px;
 }
+
+
+.baris {
+  margin-top: 78px;
+  margin-left: 205px;
+  display: flex;
+}
+
+.kolom {
+  margin-right: 450px;
+}
+
+.kolom img {
+  width: 246px;
+  height: 298px;
+}
